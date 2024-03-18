@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+}
+
+.navbar {
+  width: 100%;
+  height: 5rem;
+  padding: 1rem;
+  background-color: #26798e;
+  color: #fff;
+}
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(220, 220, 220, 0.8),
+      rgba(220, 220, 220, 0.8)
+    ),
+    url(./tracker.jpg);
+  background-position: top;
+  position: relative;
+}
+
+.header h2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 3.7rem;
+}
+
+.header p {
+  position: absolute;
+  top: 47%;
+  left: 29%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.header .input {
+  position: absolute;
+  top: 54%;
+  left: 42.5%;
+  border-radius: 12px;
+  height: 3rem;
+  text-align: center;
+  font-size: medium;
+  background-color: #fff;
+  border: solid 2px #26798e;
+}
+
+.header .btn {
+  position: absolute;
+  top: 59.5%;
+  left: 43.7%;
+  border-radius: 12px;
+  height: 3rem;
+  text-align: center;
+  font-size: medium;
+  width: 10rem;
+  background-color: #26798e;
+  border: solid 2px #fff;
+  color: #fff;
+}
